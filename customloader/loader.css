@@ -1,0 +1,114 @@
+.l-wrapper{
+    z-index: 10;
+    transition: .5s;
+    top: -120%;
+    background-color: white;
+    transition: .5s;
+}
+.l-inner{
+    width:70px;
+    height:70px;
+    border: 1px rgb(255, 255, 255) solid;
+    transition: .5s;
+    border-radius: 50%;
+}
+.l-wrapper .err{
+    transition: .5s;
+    opacity:0;
+}
+.l-inner .l-left{
+    width: 40px;
+    height: 40px;
+    border-left: 4px var(--fgrblue) solid;
+    border-top: 4px var(--fgrblue) solid;
+    border-right: 4px transparent solid;
+    border-bottom: 4px transparent solid;
+    border-radius: 50%;    
+    transition: .5s; 
+}
+.l-inner .l-right{
+    width: 35px;
+    height: 35px;
+    border-right: 4px var(--fgrblue) solid;
+    border-bottom: 4px var(--fgrblue) solid;
+    border-top: 4px transparent solid;
+    border-left: 4px transparent solid;
+    border-radius: 50%;    
+    transition: .5s;
+}
+.fanim{
+    animation: anim 2s linear infinite;
+}
+.sanim{
+    animation: anim2 .6s linear infinite;
+}
+@keyframes anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes anim2 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.stopanimations{
+    animation: stopanim .6s linear 1;
+}
+@keyframes stopanim {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+/* if successfull */
+.c-down{
+    border-radius: 10px !important;
+    border: 2px transparent solid !important;
+    background-color:var(--fgrblue) !important;
+    width: 25px !important;
+    height: 8px !important;
+    bottom: 20px !important;
+    left: 5px !important;
+    transform: rotate(40deg) !important;
+}
+.c-top{
+    border-radius: 10px !important;
+    border: 2px transparent solid !important;
+    background-color:var(--fgrblue) !important;
+    width: 50px !important;
+    height: 8px !important;
+    bottom: 28px !important;
+    left: 15px !important;
+    transform: rotate(-50deg) !important;
+}
+
+/* if failed */
+.w-down{
+    border-radius: 10px !important;
+    border: 2px transparent solid !important;
+    background-color:rgb(184, 37, 37) !important;
+    width: 50px !important;
+    height: 6px !important;
+    bottom: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%) rotate(40deg) !important;
+}
+.w-top{
+    border-radius: 10px !important;
+    border: 2px transparent solid !important;
+    background-color:rgb(184, 37, 37) !important;
+    width: 50px !important;
+    height: 6px !important;
+    bottom: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%) rotate(-40deg) !important;
+}
