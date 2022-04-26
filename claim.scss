@@ -1,0 +1,132 @@
+.claim-top select {
+    margin-right: 20px;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    min-width: 180px;
+    padding: 0 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.claim-top .search {
+    width: 200px;
+    height: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.claim-top .search input {
+    height: 34px;
+    width: 90%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.claim-top .search img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.item-list .item {
+    width: 30%;
+    min-width: 250px;
+    min-height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 8px;
+    padding: 6px 0;
+    border-radius: 5px;
+}
+
+.item-list .item .item-img-cont {
+    width: 100px;
+    height: 100%;
+    background-color: rgb(245, 238, 238);
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.item-list .item .item-img-cont img {
+    width: 100px;
+    height: 78px;
+    object-fit: contain;
+}
+
+.img-hover {
+    z-index: 1;
+    width: 60%;
+    background: linear-gradient(80deg, rgb(255, 255, 255, 90%) 50%, rgb(0, 0, 0, 85%));
+    transition: 1.5s;
+}
+
+.item-img-cont:hover .img-hover {
+    width: 0;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
+
+.item-list .item button {
+    width: 100px;
+    height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+    background-color: rgb(17, 38, 58);
+    color: white;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.item-list .item button:hover {
+    transform: translateX(-3%);
+}
+
+.claim-wrapper,
+.view-item {
+    transition: .5s;
+}
+
+.view-item {
+    transform: translateX(150%);
+}
+
+// clain item data
+.view-item {
+    background-color: rgb(0, 0, 0, 50%);
+    z-index: 100;
+}
+
+.view-item .view-inner {
+    width: 700px;
+    height: 450px;
+    background: white;
+    line-height: 27px;
+}
+
+.view-item .view-inner img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.claim-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgb(139, 13, 139);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.claim-btn:hover {
+    transform: scale(.8);
+}

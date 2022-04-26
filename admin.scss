@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+
+table thead tr {
+    background: rgb(218, 214, 214);
+    height: 40px;
+}
+
+table thead th {
+    font-size: 13px;
+    text-align: left;
+}
+
+table thead th:nth-child(1),
+table tbody td:nth-child(1) {
+    width: 40px;
+    text-align: center;
+}
+
+table tbody tr {
+    height: 40px;
+    border-bottom: 1px rgb(165, 159, 159) solid;
+}
+
+table tbody tr {
+    font-size: 13px;
+}

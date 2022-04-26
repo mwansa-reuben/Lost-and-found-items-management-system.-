@@ -1,0 +1,51 @@
+.lgin-wrapper .log-content {
+    background: linear-gradient(80deg, rgba(15, 80, 124, 0.3), rgba(15, 80, 124, 0.5)), url(./media/logback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login {
+    width: 630px;
+    height: 320px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+}
+
+.log-div img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.log-div input {
+    margin: 5px 0;
+    width: 300px;
+    height: 40px;
+    border: 1px rgb(219, 214, 214) solid;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.log-div button {
+    margin: 5px 0;
+    width: 310px;
+    height: 40px;
+    background-color: rgb(34, 139, 209);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.log-div button:hover {
+    transform: translateX(-1%);
+}
+
+.back-link {
+    z-index: 10;
+}

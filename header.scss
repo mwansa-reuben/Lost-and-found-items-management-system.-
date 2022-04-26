@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+.h-wrapper {
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 5;
+}
+
+.h-wrapper .logo {
+    font-family: 'Teko', sans-serif;
+}
+
+.h-wrapper .logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: rgba(53, 52, 52, 0.45) 0px 5px 15px;
+    transition: .5s;
+}
+
+.h-wrapper .logo span {
+    padding: 0 40px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: rgba(68, 67, 67, 0.35) 0px 5px 15px;
+    transition: .5s;
+}
+
+.h-wrapper .logo:hover img {
+    transform: scale(.9);
+}
+
+.h-wrapper .logo:hover span {
+    transform: translateX(-3%) skew(5deg, 5deg);
+}
+
+.menus {
+    background-color: white;
+}
+
+.h-wrapper .m-link {
+    margin: 0 10px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(95, 92, 92);
+    font-size: 18px;
+    transition: .3s;
+}
+
+.h-wrapper .m-link:hover {
+    transform: scale(1.1);
+    color: rgb(15, 77, 128);
+}
+
+.signup-btn {
+    min-width: 100px;
+    height: 30px;
+    background-color: rgb(34, 139, 209);
+    color: white !important;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 8px;
+}
+
+.footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.footer a {
+    color: white;
+}
