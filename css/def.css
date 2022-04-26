@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+ol {
+    list-style-type: none !important;
+}
+
+
+/*DEFINE SOME VARIABLES*/
+
+:root {
+    --lighterblue: #226592;
+    --bluedark: #34495E;
+    --darkgray: #283747;
+    --white: white;
+    --darkblack: #0f141b;
+    --reactionbackground: #1a212b;
+    --darkgray: #5F6A6A;
+    --mediumgray: #34495E;
+    --lightgray: #D0D3D4;
+    --red: red;
+    --darkred: #E74C3C;
+    --orange: #D35400;
+    --purple: #BB8FCE;
+    --earlyyellow: #E99306;
+    --lightgreen: #2ECC71;
+    --darkgreen: #186A3B;
+    --lightyellow: #F5F514;
+    --darkyellow: #ABA603;
+    --titlefont: 'Candal', sans-serif;
+    --textfont: 'Mada', sans-serif;
+    /*FGR COLORS*/
+    --fgrorange: #F2B138;
+    --fgrblue: #233656;
+}
+
+.c-white {
+    color: white !important;
+}
+
+.c-dark {
+    color: var(--darkblack) !important;
+}
+
+.c-red {
+    color: red !important;
+}
+
+.c-orange {
+    color: #FF5733 !important;
+}
+
+.c-darkorange {
+    color: #BC4D09 !important
+}
+
+.c-blue {
+    color: #2E86C1 !important;
+}
+
+.c-darkblue {
+    color: #107E74 !important;
+}
+
+.c-yellow {
+    color: #F1C40F !important;
+}
+
+.c-green {
+    color: #24B00A !important;
+}
+
+.c-gray {
+    color: gray !important;
+}
+
+.c-lightgray {
+    color: #444 !important;
+}
+
+.c-fgrblue {
+    color: var(--fgrblue);
+}
+
+.c-fgrorange {
+    color: var(--fgrorange);
+}
+
+.ff-text {
+    font-family: var(--textfont);
+    font-weight: 600;
+}
+
+.ff-title {
+    font-family: var(--titlefont);
+}
+
+.ff-arial {
+    font-family: Arial, 'Helvetica';
+}
+
+.ff-roboto {
+    font-family: roboto, Arial
+}
+
+
+/* text aliging */
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.ta-r {
+    text-align: right;
+}
+
+
+/*SETTING UP LOGO IMAGE SIZE*/
+
+.logo-img-sm {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.logo-img-md {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.logo-img-lg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.logo-img-xl {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+}
